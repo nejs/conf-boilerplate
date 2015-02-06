@@ -7,34 +7,29 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "1° Hackathon de JavaScript - NeJs",
+      description: "Hackathon significa maratona de programação. O termo resulta de uma combinação das palavras inglesas “hack” (programar de forma excepcional) e “marathon” (maratona).",
+      date: "Junho/Julho",
       // If your event is free, just comment this line
-      price: "$100",
+      price: "R$ 30",
       venue: "Coco Bongo",
       address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      city: "Natal",
+      state: "RN"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
+        text: "Inscreva-se já!",
         link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
     },
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://nejs.github.io/hackathon/",
+      googleanalytics: "UA-59447998-1"
     },
 
     // Active sections on the website
@@ -43,7 +38,7 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
+      //'speakers',
       'schedule',
       'sponsors',
       'partners'
@@ -52,19 +47,19 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Localização",
+      speakers: "Organizadores",
+      schedule: "Cronograma",
+      sponsors: "Patrocinadores",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Credenciamento",
         time: "9h00"
       },
       {
@@ -182,6 +177,16 @@ module.exports = {
         name: "BrazilJS",
         logo: "themes/yellow-swan/img/partner.png",
         url: "http://braziljs.org"
+      },
+      {
+        name: "UFRN",
+        logo: "http://www.sistemas.ufrn.br/portal/img/logo_ufrn.png",
+        url: "http://ufrn.br"
+      },
+      {
+        name: "IMD",
+        logo: "http://portal.imd.ufrn.br/wp-content/themes/portal-IMD/images/Logo_imd.png",
+        url: "http://portal.imd.ufrn.br/"
       }
     ],
 
